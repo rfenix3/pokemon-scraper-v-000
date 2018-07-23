@@ -5,8 +5,9 @@ class Pokemon
   attr_accessor :name, :type, :db
   
   #@@all = []
- 
-  def initialize(id = nil, name:, type:, db:)
+   let(:pokemon) {Pokemon.new(id: 1, name: "Pikachu", type: "electric", db: @db)}
+
+  def initialize(id, name, type, db)
     @id = id
     @name = name
     @type = type
