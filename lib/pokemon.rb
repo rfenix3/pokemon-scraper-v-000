@@ -21,6 +21,8 @@ class Pokemon
     sql = "INSERT INTO pokemon (name, type) VALUES (?,?)"
     
     @db.execute(sql, self.name, self.type)
+    
+    
   end
   
 end
