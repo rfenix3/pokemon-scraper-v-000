@@ -22,7 +22,7 @@ class Pokemon
     
     @db.execute(sql, self.name, self.type)
     
-    @id = @db
+    @id = @db.execute
   end
   
 end
