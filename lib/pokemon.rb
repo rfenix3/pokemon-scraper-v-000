@@ -22,7 +22,7 @@ class Pokemon
     
     @db.execute(sql, self.name, self.type)
     
-    @id = @db.execute("SELECT last_insert_rowid()")
+    @id = @db.execute("SELECT last_insert_rowid() from pokemon")
   end
   
 end
