@@ -7,7 +7,7 @@ class Pokemon
   #@@all = []
   # let(:pokemon) {Pokemon.new(id: 1, name: "Pikachu", type: "electric", db: @db)}
 
-  def initialize(id:=nil, name:, type:, db:)
+  def initialize(id:, name:, type:, db:)
     @id = id
     @name = name
     @type = type
