@@ -2,7 +2,7 @@ require 'pry'
 
 class Pokemon
   
-  attr_accessor :name, :type, :db
+  attr_accessor :id, :name, :type, :db
   
   #@@all = []
   # let(:pokemon) {Pokemon.new(id: 1, name: "Pikachu", type: "electric", db: @db)}
